@@ -8,6 +8,10 @@
 # Print the runner-up score.
 
 # HACKER-RANK ACCEPTED SOLUTION
+if __name__ == '__main__':
+    n = int(raw_input())
+    arr = map(int, raw_input().split())
+    
 score = []
 for i in arr:
     if i not in score:
